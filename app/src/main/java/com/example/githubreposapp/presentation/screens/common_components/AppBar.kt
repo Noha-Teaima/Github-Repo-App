@@ -32,7 +32,7 @@ fun AppBar(
     titleStyle: TextStyle = MaterialTheme.typography.titleLarge,
     color: Color = MaterialTheme.colorScheme.primary,
     showBackButton: Boolean = true,
-    spacer:Boolean=true,
+    spacer:Boolean=false,
 
     onBackButtonClicked: () -> Unit = {},
 ) {
